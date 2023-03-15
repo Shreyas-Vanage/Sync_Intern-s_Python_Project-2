@@ -16,7 +16,7 @@ s.login("vanageshreyu@gmail.com", "lppspspreksowdkw")
 emailid = input("Enter your email: ")
 s.sendmail('vanageshreyu@gmail.com',emailid,msg)
 a = input("Enter Your OTP >>: ")
-if a==OTP:
+if a==temp_OTP:
     print("Verified")
 else:
     print("Please Check your OTP again")
