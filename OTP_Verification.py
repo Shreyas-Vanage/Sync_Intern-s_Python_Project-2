@@ -14,7 +14,7 @@ s = smtplib.SMTP('smtp.gmail.com',587)
 s.starttls()
 s.login("email", "app_password_google")
 emailid = input("Enter your email: ")
-s.sendmail('vanageshreyu@gmail.com',emailid,msg)
+s.sendmail('full_email_address',emailid,msg)
 a = input("Enter Your OTP >>: ")
 if a==temp_OTP:
     print("Verified")
